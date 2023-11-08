@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="MainPageStyles.css">
+    <title>PureAir Guard</title>
+</head>
+<body>
+    <header>
+        <div class="top-nav"> 
+            <div class="nav-mainTitle" id="mainTitle">PureAir Guard</div>
+            <div class="nav-ourSensor" id="SensorPage">Our Sensor</div>
+            <div class="nav-maps" id="mapsPage">Maps</div>
+            <button id="loginButton">Login</button>
+        </div>
+
+        <script>
+            const mainTitleButton = document.getElementById("mainTitle");
+            mainTitleButton.addEventListener("click", function() {
+                window.location.href = "MainPage.html"; 
+            });
+
+            const ourSensorButton = document.getElementById("SensorPage");
+            ourSensorButton.addEventListener("click", function() {
+                window.location.href = "SensorPage.html"; 
+            });
+
+            const mapsPageButton = document.getElementById("mapsPage");
+            mapsPageButton.addEventListener("click", function() {
+                window.location.href = "MapsPage.html";
+            });
+
+            const loginButton = document.getElementById("loginButton");
+            loginButton.addEventListener("click", function() {
+                window.location.href = "LoginPage.html";
+            });
+        </script>
+    </header>
+    <p> MainPage</p>
+</body>
+</html>

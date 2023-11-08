@@ -1,0 +1,38 @@
+header {
+    background-color: #f6f6f6;
+    padding: 10px 0;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.nav-mainTitle{
+    font-size: large;
+    cursor: pointer;
+    color: #007BFF;
+    margin: auto;
+}
+.nav-ourSensor{
+    font-size: medium;
+    margin: auto;
+    margin-left: 50%;
+    cursor: pointer;
+}
+.nav-maps{
+    font-size: medium;
+    margin: auto;
+    cursor: pointer;
+}
+
+#loginButton{
+    background-color: #007BFF;
+    color: white;
+    margin: auto;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: medium;
+    cursor: pointer;
+}
