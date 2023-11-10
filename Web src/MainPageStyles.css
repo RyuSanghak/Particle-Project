@@ -1,13 +1,19 @@
 header {
     background-color: rgb(244, 243, 243);
     padding: 30px 250px;
+    box-sizing: border-box;
 }
 
 .top-nav {
+    box-sizing: border-box;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    max-width: 1200px; 
 }
 .nav-mainTitle{
     font-size: large;
@@ -16,14 +22,18 @@ header {
     margin: auto;
 }
 .nav-ourSensor{
+    
     font-size: medium;
     margin: auto;
+    margin-right: 5%;
     margin-left: 50%;
     cursor: pointer;
 }
 .nav-maps{
+    
     font-size: medium;
     margin: auto;
+    margin-right: 5%;
     cursor: pointer;
 }
 
