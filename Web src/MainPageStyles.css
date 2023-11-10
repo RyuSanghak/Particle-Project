@@ -1,9 +1,10 @@
 header {
-    background-color: #f6f6f6;
-    padding: 10px 0;
+    background-color: rgb(244, 243, 243);
+    padding: 30px 250px;
 }
 
 .top-nav {
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
@@ -11,7 +12,7 @@ header {
 .nav-mainTitle{
     font-size: large;
     cursor: pointer;
-    color: #007BFF;
+    color: #61abf9;
     margin: auto;
 }
 .nav-ourSensor{
@@ -27,9 +28,26 @@ header {
 }
 
 #loginButton{
-    background-color: #007BFF;
+    background-color: #61abf9;
     color: white;
     margin: auto;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: medium;
+    cursor: pointer;
+}
+.title-Sentence{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#shopButton{
+    display: flex;
+    background-color: #61abf9;
+    color: white;
+    margin: auto;
+    margin-top: 100px;
     padding: 10px 40px;
     border: none;
     border-radius: 8px;
